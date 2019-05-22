@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_stateful/src/screens/login_screen.dart';
 
 class App extends StatelessWidget {
   @override
@@ -6,7 +7,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Log Me In',
       home: Scaffold(
-        body: Text('Show login form'),
+        body: LoginScreen(),
       ),
     );
   }
